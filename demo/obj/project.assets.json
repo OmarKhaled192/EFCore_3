@@ -3010,11 +3010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\demo\\demo.csproj",
+      "projectUniqueName": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\demo\\demo.csproj",
+      "projectPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\demo.csproj",
       "packagesPath": "C:\\Users\\omar.khaled\\.nuget\\packages\\",
-      "outputPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\demo\\obj\\",
+      "outputPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omar.khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,6 +12,7 @@ namespace demo.Models
         public string Name { get; set; } = null!;
         public DateOnly CreationDate { get; set; }
 
+        // Navigational Property [Many] --> [Related Data]
         public ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
     }
 }

@@ -22,7 +22,7 @@ namespace demo.Data.Configurations
 
             // Salary
             builder.Property(E => E.Salary)
-                .HasColumnType("decimal(12, 2");
+                .HasColumnType("decimal(12, 2)");
         }
     }
 }
