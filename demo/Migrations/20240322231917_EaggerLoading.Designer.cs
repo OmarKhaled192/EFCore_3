@@ -12,8 +12,8 @@ using demo.Data;
 namespace demo.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20240319135725_secondCreate")]
-    partial class secondCreate
+    [Migration("20240322231917_EaggerLoading")]
+    partial class EaggerLoading
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,7 +70,7 @@ namespace demo.Migrations
                         .HasDefaultValue("Cairo");
 
                     b.Property<decimal?>("Salary")
-                        .HasColumnType("decimal(12, 2");
+                        .HasColumnType("decimal(12, 2)");
 
                     b.HasKey("Id");
 

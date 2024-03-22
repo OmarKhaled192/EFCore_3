@@ -3005,19 +3005,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\omar.khaled\\.nuget\\packages\\": {}
+    "C:\\Users\\L-340\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\demo.csproj",
+      "projectUniqueName": "E:\\Route Backend assignment\\C#\\Linq\\EFCore3\\demo\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\demo.csproj",
-      "packagesPath": "C:\\Users\\omar.khaled\\.nuget\\packages\\",
-      "outputPath": "D:\\EntityFramework\\EF_Core_Session_3_Solution\\EFCore_3\\demo\\obj\\",
+      "projectPath": "E:\\Route Backend assignment\\C#\\Linq\\EFCore3\\demo\\demo.csproj",
+      "packagesPath": "C:\\Users\\L-340\\.nuget\\packages\\",
+      "outputPath": "E:\\Route Backend assignment\\C#\\Linq\\EFCore3\\demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\omar.khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\L-340\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3037,6 +3037,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3084,7 +3089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
