@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
+
 namespace demo.Models
 {
     internal class Employee
@@ -17,7 +21,7 @@ namespace demo.Models
 
         //public int DepartmentId { get; set; }
 
-        public Department Department { get; set; } = null!;
+        public virtual Department Department { get; set; } = null!;
 
 
     }

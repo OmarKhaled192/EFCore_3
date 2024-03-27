@@ -11,10 +11,11 @@ using System.Threading.Tasks;
 namespace demo.Data
 {
     internal class ApplicationDBContext: DbContext
-    { 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server = .; Database = NewCompany; Trusted_Connection = True; TrustServerCertificate = True", options => options.UseDateOnlyTimeOnly());
- 
+    {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+          =>  optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server = .; Database = NewCompany; Trusted_Connection = True; TrustServerCertificate = True", options => options.UseDateOnlyTimeOnly());
+        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

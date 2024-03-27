@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
+
 namespace demo.Models
 {
     internal class Department
@@ -13,7 +17,7 @@ namespace demo.Models
         public DateOnly CreationDate { get; set; }
 
         // Navigational Property [Many] --> [Related Data]
-        public ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
+        public virtual ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
     }
 
 }

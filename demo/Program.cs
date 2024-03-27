@@ -1,5 +1,4 @@
 ﻿using demo.Data;
-using demo.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace demo
@@ -57,6 +56,19 @@ namespace demo
             #region Eager Loading Ex01
             // get data & related date in the same request
             // sepecially when related data is large
+
+            //var employee = (from E in dbContext.Employees.Include(E => E.Department) // Eager Loading
+            //                where E.Id == 1
+            //                select E).FirstOrDefault();
+
+            //if (employee is not null)
+            //{
+            //    Console.WriteLine($"Employee Name: {employee.Name}, Department Name: {employee.Department?.Name ?? "NA"}");
+            //}
+
+            #endregion
+
+            #region Lazy Loading Ex01 [Loading Implicitly]
 
             var employee = (from E in dbContext.Employees.Include(E => E.Department) // Eager Loading
                             where E.Id == 1
